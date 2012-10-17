@@ -24,13 +24,19 @@ RUN:
 
 3.
     a) Open brushing.pd
+
     b) Check the toggle switch at the bottom of the patch,
        and turn up the volume.
+
     c) Check the toggle switch above the fullscreen message
        at the top of the patch. Then click on the create message.
+
     d) Edit the controls.
+
         i.   Change the paremeters to the [+bubbler~] object.
              Suggested values are indicated with arrows.
+
         ii.  Change the parameters to the [freeverb~] object.
              Suggested values are indicated next to each number box.
+
         iii. Change the parameters to the [decimate~] object.
