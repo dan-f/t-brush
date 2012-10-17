@@ -23,6 +23,7 @@ RUN:
 2. Check the button labeled 'compute audio' window.
 
 3.
+
     a) Open brushing.pd
 
     b) Check the toggle switch at the bottom of the patch,
