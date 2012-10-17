@@ -22,7 +22,7 @@ RUN:
 
 2. Check the button labeled 'compute audio' window.
 
-3.
+3. Set up the patch.
 
     a) Open brushing.pd
 
