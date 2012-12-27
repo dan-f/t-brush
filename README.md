@@ -1,6 +1,12 @@
 t-brush
 =======
 
+An interactive audio/video installation for brushing teeth. The user brushes
+their teeth in front of a computer monitor, using a webcam and microphone (or
+other film device) to capture the audio and video. The project is meant to
+explore the everyday experience of brushing one's teeth by accentuating the
+cleansing motif through audiovisual augmentation of the user's reflection.
+
 INSTALL:
 --------
 

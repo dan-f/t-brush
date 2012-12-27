@@ -1,4 +1,4 @@
-#N canvas 61 68 974 745 10;
+#N canvas 338 61 974 745 10;
 #X obj 72 109 gemhead;
 #X obj 77 566 pix_texture;
 #X obj 35 231 pix_add;
@@ -11,15 +11,15 @@
 #X floatatom 158 291 5 0 0 0 - - -;
 #X text 113 275 offset;
 #X text 160 274 gap;
-#X obj 155 232 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 0
+#X obj 155 232 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 1
 1;
 #X msg 155 250 smooth \$1;
 #X msg 87 249 fill \$1;
-#X obj 87 231 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 76.3386
-76.3386;
+#X obj 87 231 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 66.534
+66.534;
 #X obj 561 6 adc~;
 #X obj 535 692 dac~;
-#X obj 571 608 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 571 608 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 543 633 *~ \$1;
 #X msg 453 371 time \$1;
@@ -29,21 +29,21 @@
 #X msg 372 370 density \$1;
 #X msg 820 374 grainSize \$1;
 #X obj 372 259 vsl 15 100 0 200 0 0 empty empty empty 0 -9 0 10 -258113
--1 -1 0 1;
+-1 -1 3700 1;
 #X obj 452 262 vsl 15 100 1 1000 0 0 empty empty empty 0 -9 0 10 -4032
--1 -1 0 1;
+-1 -1 2900 1;
 #X obj 518 263 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 3900 1;
 #X obj 633 262 vsl 15 100 20 20000 0 0 empty empty empty 0 -9 0 10
--262144 -1 -1 0 1;
+-262144 -1 -1 9900 1;
 #X obj 737 262 vsl 15 100 0 200 0 0 empty empty empty 0 -9 0 10 -159808
--1 -1 0 1;
+-1 -1 4800 1;
 #X obj 819 262 vsl 15 100 0 50 0 0 empty empty empty 0 -9 0 10 -260097
--1 -1 0 1;
+-1 -1 1200 1;
 #X obj 306 40 fiddle~ 1024 1 20 3;
 #X obj 543 654 *~ \$1;
 #X obj 594 628 hsl 75 15 0 1 0 0 empty empty empty -2 -8 0 10 -4034
--1 -1 700 1;
+-1 -1 7400 1;
 #X text 608 605 volume;
 #X obj 542 536 freeverb~;
 #X msg 390 431 roomsize \$1;
@@ -150,10 +150,10 @@
 #X obj 404 123 / 10;
 #X msg 136 174 3;
 #X obj 319 409 / 100;
-#X text 649 43;
+#X text 649 43 comment;
 #X text 430 35 threshold;
 #X text 422 73 <- trigger;
-#X text 741 149;
+#X text 741 149 comment;
 #X text 625 37 carrier;
 #X text 704 33 modulator;
 #X floatatom 319 388 5 0 0 0 - - -;
@@ -216,7 +216,6 @@
 #X connect 62 1 6 0;
 #X connect 62 1 83 0;
 #X connect 62 1 102 0;
-#X connect 62 1 15 0;
 #X connect 63 0 62 1;
 #X connect 64 0 8 0;
 #X connect 64 0 9 0;
@@ -233,6 +232,7 @@
 #X connect 76 0 77 0;
 #X connect 76 0 100 0;
 #X connect 76 0 103 0;
+#X connect 76 0 15 0;
 #X connect 77 0 78 0;
 #X connect 79 0 36 0;
 #X connect 79 0 36 1;
